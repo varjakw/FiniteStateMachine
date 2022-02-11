@@ -14,10 +14,12 @@ Church-Turing Thesis: Program ~ Turing machine
 
 e.g. 
 ```
-Trans = [[q0,aq0],[qo,b,q1],[q1,b,q1]]
+Trans = [[q0,a,q0],[qo,b,q1],[q1,b,q1]]
 Final = [q1]
 Q0 = q0
 ```
+
+From the above Trans ```[q0,a,q0]``` means if you are at state q0 and you read an a symbol, you will return to state q0.
 
 # From Strings to FSM's
 
